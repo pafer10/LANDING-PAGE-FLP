@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #dae082, #deea31);
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minombre{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 50px;
+}
+
+h2, h3{
+    color: #333;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.contenido{
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contenidoTitulo{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.info{
+    margin-bottom: 20px;
+}
+
+.info p{
+    margin-bottom: 5px;
+}
+
+.contenidoExperiencia, .contenidoEducacion, 
+.contenidoCompetenciasL, .contenidoCompetenciasD, 
+.contenidoConduccion, .contenidoAficiones{
+    margin-bottom: 20px;
+    flex:1;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.contenidoExperiencia h3, .contenidoEducacion h3, 
+.contenidoCompetenciasL h3, .contenidoCompetenciasD h3, 
+.contenidoConduccion h3, .contenidoAficiones h3{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contenidoExperiencia p, .contenidoEducacion p, 
+.contenidoCompetenciasL p, .contenidoCompetenciasD p, 
+.contenidoConduccion p, .contenidoAficiones p{
+    margin-bottom: 5px;
+}
+
+
+.verde{
+    background-color: #99cd3297; 
+}
+
+.azul{
+    background-color: #6494eda6; 
+}
+
+.naranja{
+    background-color: #ff7300ad;
+}
+
+.morado{
+    background-color: rgba(189, 79, 189, 0.694);
+}
+
+.marron{
+    background-color: rgba(230, 59, 59, 0.785);
+}
+
+.negro{
+    background-color: #40bbc69c;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/p3-normalc.png">
+    <title>Landing Page</title>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <section class="sobremi">
+        <!-- <div class="circulo"></div> -->
+        <header>
+            <a href="#Seccion1" class="logo">Paula Andrea Fernández López</a>
+            <ul class="navbar">
+                <li>
+                    <a href="#Seccion1">Quién soy</a>
+                </li>
+                <li>
+                    <a href="#Seccion2">CV</a>
+                </li>
+                <li>
+                    <a href="#Seccion3">Mis proyectos</a>
+                </li>
+                <li>
+                    <a href="#Seccion4">Contacto</a>
+                </li>
+            </ul>
+        </header>
+
+        <section class="contenido">
+            <div class="tituloBox">
+                <h2>Desarrolladora,</h2>
+                <h2>Traductora</h2>
+                <h2>e Intérprete</h2><br>
+                <p class="frase">Desarrolladora de páginas web</p><br>
+                <p class="frase">Traductora y localizadora de páginas web y videojuegos</p>
+                <a href="#Seccion1" class="vinculotituloBox">Más sobre mí</a>
+            </div>
+    
+        </section>
+    </section>
+
+    <section class="contenido1" id="Seccion1">
+        <div class="quienSoy">
+            <h2 class="tituloquiensoy">QUIÉN SOY</h2>
+            <br><br>
+            <p class="contenidoquiensoy">¡Hola, soy Paula! Y, además de ser desarrolladora web, también
+                <br>soy traductora e intérprete (FR, EN, ES) especializada en la 
+                <br>localización de videojuegos y de páginas web. ¡Es decir que 
+                <br>además de crear tu web puedo localizarla!
+                <br>
+            </p>
+        </div>
+        
+        <a href="cv.html" target="_blank" id="Seccion2"><img class="imgcv" src="img/cv.png" alt="Mi CV"></a>
+
+                <div class="quienSoy">
+                <div class="emojisApps">
+                    <h2 class="tituloquiensoy">SKILLS</h2><br>
+                    <img class="logoapp" src="img/html-5.png">
+                    <img class="logoapp" src="img/css-3.png">
+                    <img class="logoapp" src="img/java.png">
+                    <img class="logoapp" src="img/mysql.png">
+                    <img class="logoapp" src="img/gnu-bash.png">
+                    <img class="logoapp" src="img/sdl-trados.png">
+                    <img class="logoapp" src="img/git.png">
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contenido2" id="Seccion3">
+        <div class="proyectos">
+            <h2 class="tituloproyectos">¡Estos son algunos de mis proyectos!</h2><br>
+            <div class="imagenes">
+                <div class="ordenadorBox">
+                    <a href="https://pafer10.github.io/EX-PRACTICO-PFL/" target="_blank">
+                        <img class="ordenador"  src="img/proyecto1.png">
+                    </a>
+                    <div class="pieFoto">Trabajo segundo parcial LMSGI</div>
+                    
+                </div> 
+                <div class="ordenadorBox">
+                    <a href="https://pafer10.github.io/proyectopfl/" target="_blank">
+                        <img class="ordenador" src="img/proyecto2.png">
+                    </a>
+                    <div class="pieFoto">Proyecto web Breaking Bad LMSGI</div>
+            
+                </div>
+                <div class="ordenadorBox">
+                    <a href="https://pafer10.github.io/WEB-CORPORATIVA-GRUPO3/" target="_blank">
+                        <img class="ordenador"  src="img/proyecto3.png">
+                    </a>
+                    <div class="pieFoto">Protyecto de Web Corporativa LMSGI</div>
+                    
+                </div>
+                <div class="ordenadorBox">
+                    <a href="https://pafer10.github.io/PROYECTO-MARCAS-Y-SISTEMAS-DE-GESTI-N/" target="_blank">
+                        <img class="ordenador" src="img/proyecto4.png">
+                    </a>
+                    <div class="pieFoto">Primer proyecto utilizando HTML LMSGI</div>
+                    
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contacto" id="Seccion4"> 
+        <div class="mensaje">
+            <form action="mailto:pafernandez10@gmail.com" method="post" name="formulario" id="formulario">
+                <caption><h4><br>¡Hablémos!</h4></caption><br>
+                <fieldset>
+                    <br>
+                    Nombre: <input type="text" name="nombre" id="" placeholder="Nicole" size="17px" required>
+                    <br><br>
+                    Correo electrónico: <input type="email" name="email" id="" placeholder="nicole@correo.com" size="17px" required>
+                    <br><br>
+                </fieldset>
+
+                <fieldset id="servicio">
+                    <br>
+                    ¿Qué servicio necesitas?:
+                    <br><br>
+                    <select name="Opciones" id="" required>
+                        <option value="1">Diseño web corporativa</option>
+                        <option value="2">Localización web</option>
+                        <option value="3">Diseño web interactiva</option>
+                        <option value="4">Localización en múltiples idiomas</option>
+                        <br><br>
+                    </select>
+
+                    <fieldset><br>
+                        Mensaje:
+                        <textarea name="Mensaje" id="" cols="30" rows="6" minlength="5" maxlength="150" required placeholder="Escribe aquí tus comentarios...">
+                        </textarea>
+                        <br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <input type="submit" value="Enviar" class="boton">
+                        <input type="reset" value="Borrar" class="boton">
+                        
+                    </fieldset>
+            </form>
+        </div>
+
+        <div class="imgEmail">
+           <img src="gif/email.gif" alt="">
+        </div>
+
+        <div class="iconos">
+            <ul class="redesSociales">
+                <li>
+                    <a href="mailto:pafernandez10@gmail.com" target="_blank">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/paula-andrea-fern%C3%A1ndez-l%C3%B3pez-a677872b9/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/pafer10" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+  
+    <footer class="webFooter text-center center">
+        <p>&copy;Web personal creada para la asignatura de Lenguaje de Marcas del CFGS DAW de UNIR FP</p>
+    </footer>
+
+</body>
+</html>
