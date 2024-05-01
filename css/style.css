@@ -20,7 +20,7 @@ body{
 .sobremi{
     width: 100%;
     padding: 10px;
-    background-image: url(/img/fondoq.jpeg);
+    background-image: url(img/fondoq.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
